@@ -1,6 +1,9 @@
-Christopher Fernandes
 COE 428 Lab 1
-Submitted Janurary 26th 2024
+
+Christopher Fernandes
+
+Submitted January 26th 2024
+
 Worked individually
 
 Answer to question
@@ -9,7 +12,7 @@ For small arrays: To design a mySort to work with the betterSort object you woul
 
 Example - betterSort (int data[], 0, numElements)
 
-For large arrays (Recursion): The ability to select a certain index range can be a very powerful tool when dealing with large arrays. As the array size increases so does the time it takes to sort the array, using the ability we can split an array up into multiple similar size arrays. For example the alogrithim is given a set of 100 numbers orders greatest to least. Using the basic sorting algorithim it would take a very long time to sort this array, however implementing the betterSort method allows for the algorithim to split the 100 values up into 10 arrays of 10 values so that the algorithim will never achieve the worst possible condition.
+For large arrays (Recursion): The ability to select a certain index range can be a very powerful tool when dealing with large arrays. As the array size increases so does the time it takes to sort the array, using the ability we can split an array up into multiple similar size arrays. For example, the algorithm is given a set of 100 numbers ordered from greatest to least. Using the basic sorting algorithm it would take a very long time to sort this array, however implementing the betterSort method allows for the algorithm to split the 100 values up into 10 arrays of 10 values so that the algorithm will never achieve the worst possible condition.
 
 Example - int [] num = {1, 2, 3, 4,..., 98, 99, 100}
 for (int i = 0; i < 100; i + 10){
