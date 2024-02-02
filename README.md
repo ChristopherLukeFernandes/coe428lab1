@@ -1,4 +1,4 @@
-# CPS 188 Lab 5 Problems 1 & 2
+# COE 428 Lab 1
 
 Christopher Fernandes
 
